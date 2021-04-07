@@ -59,7 +59,7 @@
 
 
 
-#3 How many coins
+# #3 How many coins
 
 # #set coin = 0, print amount of coins, ask if they want another coin
 # coins = 0
@@ -81,16 +81,39 @@
 #Ask user for a height and width
 width = int(input("Enter a width: "))
 height = int(input("Enter a height: "))
-star = 
 
-print('*' *'{height}' )
+for x in range(1, width+1):
+    print("*" * width)
+    for y in range(1, height+1):
+        print('*')
+    print("*" * width)
 
 
 
 #5 Print a Triangle
 
+# for x in range(1, 8, 2):
+
+#     result = ("*" * x)
+#     print(result.center(7))
 
 
+# height = int(input("Enter a height? "))
+# count = 0
+# stars = 1
+# width_size = height * 2 - 1
+
+# while count < height:
+#     star = '*' * stars
+#     count += 1
+#     stars += 2
+#     print(star.center(width_size))
 
 
 #6 Multiplication Table
+
+# count = 1
+
+# while count <= 10:
+#     print(f'{count} X {count} = {count*count}')
+#     count += 1
