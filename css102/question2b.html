@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0px;
+      }
+      .header {
+        background-color: aqua;
+        height: 10vh;
+      }
+
+      .content {
+        background-color: tomato;
+        height: 80vh;
+        position: relative;
+      }
+
+      .left {
+        width: 20%;
+        height: 100%;
+        background-color: burlywood;
+        position: absolute;
+      }
+      .middle {
+        width: 60%;
+        height: 100%;
+        background-color: lavender;
+        position: absolute;
+        left: 20%;
+      }
+      .right {
+        width: 20%;
+        height: 100%;
+        background-color: purple;
+        position: absolute;
+        left: 80%;
+      }
+
+      .footer {
+        background-color: lime;
+        height: 10vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">Header</div>
+    <div class="content">
+      <div class="left"></div>
+      <div class="middle"></div>
+      <div class="right"></div>
+    </div>
+    <div class="footer">Footer</div>
+  </body>
+</html>
